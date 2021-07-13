@@ -1,0 +1,6 @@
+fun main(){
+    println(detect(22,17))
+}
+fun detect(flowa1: Int, flowa2: Int):Boolean{
+    return flowa1 % 2 !== flowa2 % 2;
+}
